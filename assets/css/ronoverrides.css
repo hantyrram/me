@@ -1,0 +1,98 @@
+body{
+   color: grey;
+}
+
+#header .image.avatar {
+   margin: 0 0 1em 0;
+   width: unset;
+}
+
+h1, h2, h3, h4, h5 {
+   font-weight: 500;
+}
+
+h1, h2, h3, h4, h5 {
+   color: #000000c2;
+}
+
+
+h1 {
+   color: #000000;
+
+}
+
+#one h2{
+   /* Who I Am */
+   font-size: 50px;
+   font-weight: bolder;
+   color: #212b2b;
+   font-family: Roboto,serif,sans-serif;
+}
+
+#one .major p {
+   color: #225093;
+}
+
+.fa, .fas{
+   color: #82465a !important;
+}
+
+
+.whoiam-li .whoiam-li-item{
+   display:flex;
+   font-size: 30px;
+   margin-bottom: 1em;
+   align-items:baseline;
+   justify-content: left;
+}
+.whoiam-li .whoiam-li-item .icon{
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   width: 10%;
+}
+
+.whoiam-li .whoiam-li-item .label{
+   margin-left: 2em;
+}
+
+.whoiam-li .whoiam-li-item .label{
+   color: #3c0606;
+   font-size: 30px;
+}
+
+.whoiam-li #techskill-sub > a > img{
+   /* margin: .5em .5em .5em .5em; */
+   margin: .75em;
+}
+
+.recent-work-title{
+   text-align: center;
+    color: #565673;
+    font-weight: bolder;
+}
+
+.recent-work-link{
+   display: flex;
+   justify-content: center;
+}
+
+/**
+* Override : don't use overlay.png on recent works thumbnail on hover
+*/
+.image.thumb:hover:before {
+   /* background: url(images/overlay.png), url(images/overlay.png); */
+   background: unset;
+   background-color: grey;
+   /* opacity: 1.0; */
+   opacity: .25;
+}
+
+.image.thumb:hover {
+   color: grey;
+}
+
+
+
+
+
